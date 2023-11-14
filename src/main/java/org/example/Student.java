@@ -15,6 +15,7 @@ public class Student {
         this.borrowedBooks = new ArrayList<>();
     }
 
+
     public boolean borrowBook(Book book) {
         if (book.isAvailable()) {
             borrowedBooks.add(book);
@@ -35,7 +36,8 @@ public class Student {
         }
     }
 
-    // Getters and Setters
+
+
     public String getId() {
         return id;
     }
